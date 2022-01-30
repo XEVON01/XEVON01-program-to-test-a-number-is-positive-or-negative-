@@ -1,12 +1,8 @@
-name=("aadi")
-enter_name=input("enter your name:")
-if enter_name==name:
-    password=("4200")
-    enter_pass=input("enter your password")
-    if enter_pass!=password:
-        print("wrong password")
-    else:
-        print("code=4200")
-        
+num=int(input=("enter your number:"))
+if num>0:
+    print("your number is positive")
+elif num<0:
+    print("your number is negative")
 else:
-    print("wrong username")
+    print("your number is 0")
+    
